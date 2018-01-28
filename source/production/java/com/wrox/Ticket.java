@@ -70,6 +70,7 @@ public class Ticket
     public void addAttachment(Attachment attachment)
     {
         this.attachments.put(attachment.getName(), attachment);
+//testing
     }
 
     public int getNumberOfAttachments()
