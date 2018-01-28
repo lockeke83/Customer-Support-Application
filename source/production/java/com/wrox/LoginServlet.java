@@ -10,7 +10,7 @@ import javax.servlet.http.HttpSession;
 import java.io.IOException;
 import java.util.Hashtable;
 import java.util.Map;
-
+//testing from Javi
 @WebServlet(
         name = "loginServlet",
         urlPatterns = "/login"
@@ -57,6 +57,7 @@ public class LoginServlet extends HttpServlet
         {
             response.sendRedirect("tickets");
             return;
+//hello
         }
 
         String username = request.getParameter("username");
